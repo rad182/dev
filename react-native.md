@@ -4,6 +4,7 @@ $ react-native init <projectName>
 $ cd <projectName>
 ```
 ## Setup eslint and prettier
+We will be using [Airbnb's Javascript](https://github.com/airbnb/javascript) style guide
 ```
 $ yarn add -D eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-react-native eslint-plugin-jsx-a11y babel-eslint eslint-config-prettier eslint-plugin-prettier prettier
 ```
