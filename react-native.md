@@ -17,8 +17,9 @@ $ yarn add -D husky lint-staged
 add in package.json
 ```
 "lint-staged": {
-  "*.js": [
+  "**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)": [
     "eslint --fix",
+    "prettier --write",
     "git add"
   ]
 },
